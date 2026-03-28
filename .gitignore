@@ -20,3 +20,5 @@ play-services-core/default/release/
 .externalNativeBuild
 .cxx
 package.properties
+github-actions-secrets.txt
+release.jks
