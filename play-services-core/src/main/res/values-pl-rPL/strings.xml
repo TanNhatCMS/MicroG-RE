@@ -161,7 +161,7 @@ Niektóre aplikacje mogą nie być w stanie zarejestrować się ponownie. Musisz
     <string name="prefcat_push_networks_title">Sieci do użycia do powiadomień Push</string>
     <string name="prefcat_applications">Aplikacje</string>
     <string name="prefcat_authentication">Autoryzacja</string>
-    <string name="prefcat_about">O integracji</string>
+    <string name="prefcat_about">Informacje</string>
     <string name="prefcat_details">Szczegóły</string>
     <string name="prefcat_advanced">Zaawansowane</string>
     <string name="pref_info_status">Status</string>
@@ -177,8 +177,8 @@ Niektóre aplikacje mogą nie być w stanie zarejestrować się ponownie. Musisz
     <!--preferences: device registration-->
     <string name="pref_device_registration_device_profile_category">Profil urządzenia</string>
     <string name="pref_device_registration_select_profile_title">Wybierz profil</string>
-    <string name="pref_device_registration_import_custom_profile_title">Importuj profil niestandardowy</string>
-    <string name="pref_device_registration_import_custom_profile_summary">Importuj profil urządzenia z pliku</string>
+    <string name="pref_device_registration_import_custom_profile_title">Zaimportuj własny profil</string>
+    <string name="pref_device_registration_import_custom_profile_summary">Zaimportuj profil urządzenia z pliku</string>
     <string name="pref_device_registration_serial_title">Numer seryjny</string>
     <string name="pref_device_registration_android_id">ID Android</string>
     <string name="pref_checkin_enable_summary">Rejestruje urządzenie w usługach Google i tworzy unikalny identyfikator urządzenia. microG usuwa z danych rejestracyjnych dane identyfikacyjne inne niż nazwa Twojego konta Google</string>
@@ -195,7 +195,7 @@ Niektóre aplikacje mogą nie być w stanie zarejestrować się ponownie. Musisz
     <string name="pref_gcm_remove_registers_summary">Użyj tej opcji tylko wtedy, gdy masz problemy z rejestracją aplikacji lub otrzymywaniem powiadomień</string>
     <!--preferences: privacy-->
     <string name="pref_privacy_title">Prywatność</string>
-    <string name="pref_privacy_summary">Ustawienia prywatności dla uwierzytelniania i aplikacji</string>
+    <string name="pref_privacy_summary">Ustawienia prywatności dla autoryzacji i aplikacji</string>
     <string name="pref_network_google_enabled">Zezwól na połączenie z serwerami Google</string>
     <string name="pref_network_google_enabled_summary">Jeśli opcja jest wyłączona, wszystkie połączenia z serwerami Google wykonywane przez microG zostaną odrzucone. To ustawienie nadrzędne wobec opcji konkretnych usług</string>
     <string name="pref_network_google_use_tor">Połącz się z Google przez sieć Tor</string>
@@ -207,12 +207,12 @@ Jeszcze nieobsługiwane"</string>
     <string name="pref_auth_visible_summary">Gdy opcja jest włączona, wszystkie aplikacje na tym urządzeniu będą mogły widzieć adresy e-mail Twoich kont Google bez wcześniejszej autoryzacji</string>
     <string name="pref_auth_include_android_id_title">Uwierzytelnij za pomocą rejestracji urządzenia</string>
     <string name="pref_auth_include_android_id_summary">Gdy opcja jest wyłączona, żądania autoryzacji nie będą powiązane z rejestracją urządzenia, co pozwala nieautoryzowanym urządzeniom do zalogowania się, ale może mieć nieprzewidziane skutki</string>
-    <string name="pref_auth_strip_device_name_title">Usuń nazwę urządzenia dla uwierzytelniania</string>
+    <string name="pref_auth_strip_device_name_title">Usuń nazwę urządzenia podczas autoryzacji</string>
     <string name="pref_auth_strip_device_name_summary">Gdy opcja jest włączona, żądania autoryzacji nie będą zawierać nazwy urządzenia, co może pozwalać nieautoryzowanym urządzeniom na zalogowanie się, ale może mieć nieprzewidziane skutki</string>
     <!--preferences: hide icon in launcher-->
     <string name="pref_hide_launcher_icon">Ukryj ikonę w launcherze</string>
     <!--preferences: about-->
-    <string name="pref_about_title">O microG RE</string>
+    <string name="pref_about_title">Informacje</string>
     <string name="pref_github_summary">Repozytorium kodu źródłowego</string>
     <!--Permissions-->
     <string name="perm_status_broadcast_label">słuchaj wewnętrznych komunikatów statusu</string>

@@ -10,88 +10,96 @@
     <!--auth: headers-->
     <string name="auth_add_account">Προσθήκη λογαριασμού</string>
     <string name="auth_sign_in">Είσοδος</string>
-    <string name="auth_just_a_sec">Δυστυχώς…</string>
-    <string name="auth_sorry">Είσοδος…</string>
+    <string name="auth_just_a_sec">Μία στιγμή…</string>
+    <string name="auth_sorry">Λυπούμαστε…</string>
     <!--auth: sign-->
     <string name="signin_picker_title">Επιλέξτε λογαριασμό</string>
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="signin_picker_subtitle">προχωρῆσαι εἰς %1$s</string>
-    <string name="signin_confirm_button_text">Προσθήκη άλλου λογαριασμού</string>
+    <string name="signin_picker_subtitle">για να συνεχίσετε στο %1$s</string>
+    <string name="signin_confirm_button_text">Επιτρέπεται και κοινοποίηση</string>
     <string name="signin_picker_add_account_label">Προσθήκη άλλου λογαριασμού</string>
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="signin_confirm_title">Εἰσῆλθε ὑπὸ ἐπιτρέψιες εἰς %1$s</string>
+    <string name="signin_confirm_title">Επιτρέψτε τη σύνδεση σε %1$s</string>
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="signin_subtext_sharing">Για να συνεχίσετε, το microG θα μοιραστεί το όνομα, τη διεύθυνση email και την εικόνα προφίλ του λογαριασμού Google σας με %1$s</string>
     <!--auth: buttons-->
     <!--auth: messages-->
-    <string name="auth_before_connect">"Συνδέσε λογαριασμό Google με microG.
+    <string name="auth_before_connect">"Συνδέστε τον λογαριασμό Google με microG.
 
-Ας συνδεθούμε με έναν λογαριασμό Google, χρησιμοποιήσε το κουμπί <b>Είσοδος</b> ή το κουμπί <b>Huawei</b> αν έχεις ένα τηλέφωνο με αυτή την επωνυμία. Μόλις πατήσεις ένα από τα κουμπιά θα μεταφερθούμε σε μια σελίδα για να συνδεθούμε με τον λογαριασμό σου."</string>
-    <string name="auth_connecting">"Δεν έχετε σύνδεση με το δίκτυο."</string>
-    <string name="auth_no_network_error_desc">"Υπήρξε ένα πρόβλημα επικοινωνίας με τους διακομιστές του Google."</string>
-    <string name="auth_general_error_desc">"Η συσκευή σου επικοινωνεί με το Google για να αποθηκεύσει δεδομένα του λογαριασμού σου. Αυτό μπορεί να διαρκέσει λίγα λεπτά."</string>
-    <string name="auth_finalize">"Απαιτείται έγκριση"</string>
+Ας συνδεθούμε με έναν λογαριασμό Google, χρησιμοποιήσε το κουμπί <b>Είσοδος</b> ή το κουμπί <b>Huawei</b> αν έχετε ένα τηλέφωνο με αυτή την επωνυμία. Μόλις πατήσετε ένα από τα κουμπιά θα μεταφερθούμε σε μια σελίδα για να συνδεθούμε με τον λογαριασμό σας."</string>
+    <string name="auth_connecting">"Η συσκευή σας δημιουργεί σύνδεση με τους διακομιστές της Google για να συνδεθείτε.
+
+Αυτό μπορεί να διαρκέσει μερικά δευτερόλεπτα"</string>
+    <string name="auth_no_network_error_desc">"Δεν έχετε σύνδεση δικτύου.
+
+Ίσως είναι προσωρινό ή το Android σας μπορεί να μην προμηθεύεται από υπηρεσίες δεδομένων. Προσπαθήστε ξανά όταν συνδεθείτε σε κινητό δίκτυο ή συνδεθείτε σε Wi-Fi δίκτυο"</string>
+    <string name="auth_general_error_desc">"Παρουσιάστηκε κάποιο πρόβλημα με τους διακομιστές της Google. 
+
+Δοκιμάστε ξανά αργότερα."</string>
+    <string name="auth_finalize">"Ο συσκευή σου επικοινωνεί με τη Google για να αποθηκεύσει πληροφορίες στο λογαριασμό σου.
+
+Αυτό μπορεί να διαρκέσει λίγα λεπτά"</string>
     <!--auth: notifications-->
-    <string name="auth_notification_title">Απαιτείται έγκριση ασφαλείας</string>
+    <string name="auth_notification_title">Απαιτείται έλεγχος ταυτότητας</string>
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="auth_notification_content">%1$s χρειάζεται την εὐλογία σου για να έχει πρόσβαση στο λογαριασμό Google σου</string>
+    <string name="auth_notification_content">%1$s χρειάζεται την έγκρισή σας για να έχει πρόσβαση στο λογαριασμό Google σας</string>
     <!--Account Manager-->
-    <string name="dialog_title_remove_account">Αφαιρέση λογαριασμού</string>
-    <string name="dialog_message_remove_account">"Είσαι σίγουρος ότι θέλεις να αφαιρέσεις αυτόν τον λογαριασμό;
+    <string name="dialog_title_remove_account">Αφαίρεση λογαριασμού</string>
+    <string name="dialog_message_remove_account">"Σίγουρα θέλετε να αφαιρέσετε αυτό το λογαριασμό;
 
-Algunες υπηρεσίες και λειτουργίες θα είναι μη διαθέσιμες
+Κάποιες υπηρεσίες και λειτουργίες θα είναι μη διαθέσιμες
 
-Τα δεδομένα σου δεν θα χαθούν"</string>
-    <string name="dialog_confirm_button">Αφαιρέστε</string>
+Τα δεδομένα σας δεν θα χαθούν"</string>
+    <string name="dialog_confirm_button">Αφαίρεση</string>
     <string name="dialog_cancel_button">Ακύρωση</string>
     <string name="snackbar_remove_account">Ο λογαριασμός %s αφαιρέθηκε</string>
     <string name="snackbar_undo_button">Αναίρεση</string>
     <!--Google Cloud Messaging-->
-    <string name="service_name_mcs">Διεύθυνση ειδοποιήσεων</string>
-    <string name="gcm_enable_switch">Επιτρέψτε τις ειδοποιήσεις</string>
+    <string name="service_name_mcs">Μηνύματα Νέφους</string>
+    <string name="gcm_enable_switch">Ειδοποιήσεις Push</string>
     <!--gcm: register dialogs-->
-    <string name="gcm_registered">Εγγραφή</string>
-    <string name="gcm_unregister_app">Αφαιρέστε την εγγραφή</string>
+    <string name="gcm_registered">Έγινε εγγραφή</string>
+    <string name="gcm_unregister_app">Κατάργηση εγγραφής</string>
     <string name="gcm_remove_registers_dialog_title">Αφαιρέστε όλες τις εγγραφές;</string>
     <!-- %1$s is an app name, such as "YouTube"? -->
-    <string name="gcm_unregister_confirm_title">Ἀφελεῖν %1$s;</string>
-    <string name="gcm_remove_registers_dialog_message">"Αυτό θα αφαιρέσει όλες τις καταχωρημένες εφαρμογές από την λήψη ειδοποιήσεων στο παρασκήνιο
+    <string name="gcm_unregister_confirm_title">Κατάργηση εγγραφής %1$s;</string>
+    <string name="gcm_remove_registers_dialog_message">"Αυτό θα αφαιρέσει όλες τις εγγεγραμμένες εφαρμογές από την λήψη ειδοποιήσεων push μονομιάς
 
-Θα χρειαστεί ένα νέο securityToken και AndroidID για να καταχωρίσετε τις εφαρμογές. Ελέγξτε την κατάσταση καταχώρισης του συσκευή
+Θα χρειαστεί ένα νέο securityToken και AndroidID για να εγγράψετε εφαρμογές. Ελέγξτε την κατάσταση εγγραφής της συσκευής
 
-Algunες εφαρμογές μπορεί να μην μπορούν να καταχωριστούν ξανά μετά από αυτήν την ενέργεια. Πιθανότατα θα χρειαστεί να καθαρίσετε τα δεδομένα για αυτές τις εφαρμογές πριν μπορέσουν να ζητήσουν καταχώρηση ξανά"</string>
-    <string name="gcm_unregister_confirm_message">"Algunές εφαρμογές δεν επαναεγγραφούνται αυτόματα και/ή δεν παρέχουν επιλογή για επαναεγγραφή. Αυτές οι εφαρμογές ίσως να δεν λειτουργούν σωστά μετά από την αφαίρεση."</string>
+Κάποιες εφαρμογές μπορεί να μην μπορούν να εγγραφούν ξανά μετά από αυτήν την ενέργεια. Πιθανότατα θα χρειαστεί να καθαρίσετε τα δεδομένα για αυτές τις εφαρμογές πριν μπορέσουν να ζητήσουν εγγραφή ξανά"</string>
+    <string name="gcm_unregister_confirm_message">"Κάποιες εφαρμογές δεν επαναεγγραφούνται αυτόματα και/ή δεν παρέχουν επιλογή για επαναεγγραφή. Αυτές οι εφαρμογές ίσως να δεν λειτουργούν σωστά μετά από την αφαίρεση."</string>
     <string name="gcm_remove_registers_toast_message">Όλες οι εφαρμογές αφαιρέθηκαν από την ειδοποίηση push</string>
-    <string name="gcm_unregister_after_deny_message">"Επιτρέψα μια εφαρμογή να καταχωριστεί για ειδοποιήσεις που είναι ήδη καταχωρισμένη.
-Θα θέλεις να αφαιρέσεις την εγγραφή της έτσι ώστε να μην λαμβάνει ειδοποιήσεις στο μέλλον;"</string>
+    <string name="gcm_unregister_after_deny_message">"Αρνηθήκατε σε μια εφαρμογή να καταχωριστεί για ειδοποιήσεις που είναι ήδη καταχωρισμένη.
+Θέλετε να αφαιρέσετε την εγγραφή της έτσι ώστε να μην λαμβάνει ειδοποιήσεις στο μέλλον;"</string>
     <!--gcm: register messages infos-->
-    <string name="gcm_no_message_yet">Δεν έχουν λάβει καμία ειδοποίηση</string>
+    <string name="gcm_no_message_yet">Καμία ειδοποίηση ως τώρα</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
-    <string name="gcm_last_message_at">Τελευταία μηνύματα: %1$s</string>
+    <string name="gcm_last_message_at">Τελευταίο μήνυμα: %1$s</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
-    <string name="gcm_registered_since">Εγγεγραμμένος από: %1$s</string>
+    <string name="gcm_registered_since">Εγγεγραμμένο από: %1$s</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
     <string name="gcm_messages_counter">Μηνύματα: %1$d (%2$d bytes)</string>
     <!--gcm: network states-->
-    <string name="gcm_network_state_disconnected">Αποσυνδεδευτός</string>
+    <string name="gcm_network_state_disconnected">Αποσυνδέθηκε</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
-    <string name="gcm_network_state_connected">Συνδεδεμένος από %1$s</string>
+    <string name="gcm_network_state_connected">Συνδεδεμένο από %1$s</string>
     <!--gcm: network types entry's-->
     <string name="network_type_mobile">Δίκτυο κινητής</string>
     <string name="network_type_wifi">Wi-Fi</string>
-    <string name="network_type_roaming">Ροαμ</string>
+    <string name="network_type_roaming">Περιαγωγή</string>
     <string name="network_type_other">Άλλα δίκτυα</string>
     <!--gcm: push notifications ping entry's-->
-    <string name="push_notifications_summary_off">Απενεργοί</string>
-    <string name="push_notifications_summary_automatic">Ενεργός / Αυτόματη: %s</string>
-    <string name="push_notifications_summary_manual">Ενεργός / Χειροκίνητη: %s</string>
+    <string name="push_notifications_summary_off">ΑΝΕΝΕΡΓΟ</string>
+    <string name="push_notifications_summary_automatic">ΕΝΕΡΓΟ / Αυτόματη: %s</string>
+    <string name="push_notifications_summary_manual">ΕΝΕΡΓΟ / Χειροκίνητη: %s</string>
     <string name="push_notifications_summary_values_seconds">%s δευτερόλεπτα</string>
     <string name="push_notifications_summary_values_minutes">%s λεπτά</string>
     <!--gcm: ask push permission dialog-->
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="gcm_allow_app_popup">Ἀλλὰ %1$s να εὐλογήσει για εὐφημίες;</string>
-    <string name="allow">Επιτρέψτε</string>
-    <string name="deny">Απαρνέστε</string>
+    <string name="gcm_allow_app_popup">Επιτρέπετε το %1$s να εγγραφεί για ειδοποιήσεις push;</string>
+    <string name="allow">Να επιτρέπεται</string>
+    <string name="deny">Απόρριψη</string>
     <!--gcm: ask permission tos-->
     <string name="ask_permission_tos">Με την συνέχεια, επιτρέπετε σε αυτή την εφαρμογή και στο Google να χρησιμοποιήσετε τα δεδομένα σας σύμφωνα με τους όρους χρήσης και την πολιτική ιδιωτικής ζωής τους</string>
     <!-- %1$s is an app name, such as "YouTube" -->
@@ -99,46 +107,46 @@ Algunες εφαρμογές μπορεί να μην μπορούν να κατ
     <string name="ask_service_permission_title">%1$s θέλει να χρησιμοποιήσει:</string>
     <!--Device Registration-->
     <string name="service_name_checkin">Εγγραφή συσκευής</string>
-    <string name="checkin_enable_switch">Επιτρέψτε την εγγραφή συσκευής</string>
+    <string name="checkin_enable_switch">Εγγραφή συσκευής</string>
     <!--checkin: registration status-->
-    <string name="checkin_not_registered">Δεν εγγραφήθηκε</string>
+    <string name="checkin_not_registered">Μη εγγεγραμμένο</string>
     <!-- %1$s is a date time, such as  app name, such as "Yesterday, 02:20 PM" -->
     <string name="checkin_last_registration">Τελευταία εγγραφή: %1$s</string>
     <!--checkin: profile names types entry's-->
-    <string name="profile_name_native">Οριζμένο</string>
-    <string name="profile_name_real">Αληθινό: %s</string>
-    <string name="profile_name_user">Συστή: %s</string>
+    <string name="profile_name_native">Εγγενές</string>
+    <string name="profile_name_real">Πραγματικό</string>
+    <string name="profile_name_user">Προσαρμοσμένο: %s</string>
     <string name="profile_name_auto">Αυτόματη: %s</string>
     <string name="profile_name_system">Σύστημα: %s</string>
     <!--Self Check-->
     <!--self check: categories-->
     <string name="self_check_cat_system">Σύστημα</string>
-    <string name="self_check_cat_patched_apps">Επισκευμμένες εφαρμογές</string>
-    <string name="self_check_cat_gms_packages">Επιλεγμένες πακέτα</string>
-    <string name="self_check_cat_fake_sig">Υποστήριξη υπογραφής υπογραφής</string>
+    <string name="self_check_cat_patched_apps">Τροποποιημένες εφαρμογές</string>
+    <string name="self_check_cat_gms_packages">Εγκατεστημένα πακέτα</string>
+    <string name="self_check_cat_fake_sig">Υποστήριξη παραποίησης υπογραφής</string>
     <!--self check: patched apps-->
-    <string name="self_check_source_morphe">Επισκευμμένες Morphe</string>
-    <string name="self_check_source_alternative">Αλтернаτιβές επισκευμμένες</string>
+    <string name="self_check_source_morphe">Τροποποιήσεις Morphe</string>
+    <string name="self_check_source_alternative">εναλλακτικές τροποποιήσεις</string>
     <!-- %1$s is an app name, such as "Morphe" -->
-    <string name="self_check_patched_app_installed">Δραστηριοποιείται με %1$s</string>
+    <string name="self_check_patched_app_installed">Εκτελείται με %1$s</string>
     <!-- %1$s is an app name, such as "YouTube" -->
-    <string name="self_check_resolution_patched_app_installed">Δεν βρέθηκαν εφαρμογές που χρησιμοποιούν %1$s. Παρακαλώ επαναφωτογραφίστε και εγκαταστήστε την τροποποιημένη εφαρμογή</string>
-    <string name="self_check_action_download_morphe">Κατεβάστε το Morphe</string>
+    <string name="self_check_resolution_patched_app_installed">Δεν βρέθηκαν εφαρμογές που χρησιμοποιούν %1$s. Παρακαλώ τροποποιήστε και εγκαταστήστε την τροποποιημένη εφαρμογή</string>
+    <string name="self_check_action_download_morphe">Λήψη Morphe</string>
     <!--self check: permission-->
-    <string name="self_check_name_notifications">Επιτρέψτε ειδοποιήσεις</string>
-    <string name="self_check_resolution_notifications">Κάντε την ειδοποίηση για να ανοίξετε τις ρυθμίσεις ειδοποιήσεων. Οι ειδοποιήσεις χρησιμοποιούνται για να διατηρήσουν την GcmService σε τρέχουσα όταν είναι ενεργοί η βελτιστοποίηση μπαίξης ή σε άλλες συνθήκες</string>
-    <string name="self_check_name_overlay">Επιτρέψτε την εμφάνιση επάνω από άλλες εφαρμογές</string>
-    <string name="self_check_resolution_overlay">Κάντε για να επιτρέψετε αυτή την άδεια. Αυτή η άδεια είναι απαραίτητη για να εμφανίζονται επάνω από άλλες εφαρμογές</string>
+    <string name="self_check_name_notifications">Ειδοποιήσεις επιτρέπονται</string>
+    <string name="self_check_resolution_notifications">Πατήστε την ειδοποίηση για να ανοίξετε τις ρυθμίσεις ειδοποιήσεων. Οι ειδοποιήσεις χρησιμοποιούνται για να διατηρήσουν το GcmService ενεργό στο παρασκήνιο όταν είναι ενεργη η βελτιστοποίηση μπαταρίας ή σε άλλες συνθήκες</string>
+    <string name="self_check_name_overlay">Επιτρέπεται η εμφάνιση επάνω από άλλες εφαρμογές</string>
+    <string name="self_check_resolution_overlay">Πατήστε για να επιτρέψετε την άδεια. Αυτή η άδεια είναι απαραίτητη για να εμφανίζονται αναδυόμενες ειδοποίησεις επάνω από άλλες εφαρμογές</string>
     <!--self check: system-->
-    <string name="self_check_name_battery_optimizations">Απενεργοί οι βελτιστοποιήσεις μπαίξης</string>
-    <string name="self_check_resolution_battery_optimizations">Πατήστε εδώ για να απενεργοποιήσετε τις βελτιώσεις μπαταρίας. Εάν δεν απενεργοποιηθεί, μπορείτε να αντιμετωπίσετε προβλήματα λήψης ειδοποιήσεων από το YouTube και άλλες εγγεγραμμένες εφαρμογές</string>
-    <string name="self_check_name_oem_restriction">Οικοπαιγνύμια συσκευής</string>
-    <string name="self_check_resolution_oem_restriction">Η συσκευή σου μπορεί να περιορίζει τις διαδικτυα λειτουργίες. Κάντε στο site Don’t Kill My App! για να μάθετε πώς να απενεργοί τις περιορίες αυτές</string>
+    <string name="self_check_name_battery_optimizations">Η βελτιστοποίηση μπαταρίας είναι ανενεργή</string>
+    <string name="self_check_resolution_battery_optimizations">Πατήστε εδώ για να απενεργοποιήσετε τη βελτιστοποίηση μπαταρίας. Εάν δεν απενεργοποιηθεί, μπορείτε να αντιμετωπίσετε προβλήματα λήψης ειδοποιήσεων από το YouTube και άλλες εγγεγραμμένες εφαρμογές</string>
+    <string name="self_check_name_oem_restriction">Περιορισμοί διεργασιών παρασκηνίου</string>
+    <string name="self_check_resolution_oem_restriction">Το σύστημά σας μπορεί να περιορίζει τις διεργασίες στο παρασκήνιο. Κάντε κλικ εδώ για να ανοίξετε την ιστοσελίδα Don’t Kill My App! και μάθετε πώς να απενεργοποιήσετε αυτούς τους περιορισμούς</string>
     <!--self check: signature-->
-    <string name="self_check_name_system_spoofs">Το σύστημα υποστηρίζει υπογραφή υπογραφής</string>
+    <string name="self_check_name_system_spoofs">Το σύστημα παραποιεί την υπογραφή</string>
     <string name="self_check_resolution_system_spoofs">Παρακαλώτε να διαβάσετε την τεκμηρίωση για τις ενέργειες που μπορεί να απαιτούνται</string>
     <!--self check: package-->
-    <string name="self_check_pkg_gms">Play Services</string>
+    <string name="self_check_pkg_gms">Υπηρεσίες Play</string>
     <!-- %1$s is an app name, such as "YouTube" -->
     <string name="self_check_name_app_installed">%1$s εγκατεστημένο</string>
     <!-- %1$s is an app name, such as "YouTube" -->
@@ -172,17 +180,17 @@ Algunες εφαρμογές μπορεί να μην μπορούν να κατ
     <string name="pref_device_registration_select_profile_title">Επιλέξτε προφίλ</string>
     <string name="pref_device_registration_import_custom_profile_title">Εισαγωγή προσαρμοσμένου προφίλ</string>
     <string name="pref_device_registration_import_custom_profile_summary">Εισαγωγή προφίλ συσκευής από αρχείο</string>
-    <string name="pref_device_registration_serial_title">Σειρια</string>
+    <string name="pref_device_registration_serial_title">Σειριακός</string>
     <string name="pref_device_registration_android_id">Android ID</string>
     <string name="pref_checkin_enable_summary">Εγγράφει το τηλέφωνο σου στους υπηρεσίες Google και δημιουργεί έναν μοναδικό αναγνωριστικό συσκευής. Το microG αφαιρεί τα στοιχεία ταυτοποίησης εκτός από το όνομα του λογαριασμού Google από τα δεδομένα εγγραφής</string>
     <!--preferences: cloud messaging-->
     <string name="prefcat_push_apps_title">Επιλεγμένες εφαρμογές για ειδοποιήσεις</string>
     <string name="pref_push_app_allow_register_title">Επιτρέψτε την εγγραφή</string>
     <string name="pref_push_app_allow_register_summary">Επιτρέψτε στην εφαρμογή να εγγραφεί για ειδοποιήσεις</string>
-    <string name="pref_push_app_wake_for_delivery_title">Επιτρέψτε την εφαρμογή να ξεκινήσει κατά την λήψη ειδοποιήσεων</string>
-    <string name="pref_push_app_wake_for_delivery_summary">Η επικοινωνία με το Google είναι ενεργοί. Μήν εξαιρέση της βελτιστοποίησης μπαίξης για το MicroG Services, οι ειδοποιήσεις θα λάβουν να φτάσουν</string>
-    <string name="pref_gcm_enable_mcs_summary">Η επικοινωνία με το Google είναι ενεργοί. Μήν εξαιρέση της βελτιστοποίησης μπαίξης για το MicroG Services, οι ειδοποιήσεις θα λάβουν να φτάσουν</string>
-    <string name="pref_gcm_confirm_new_apps_title">Επιτρέψτε την εγγραφή νέων εφαρμογών</string>
+    <string name="pref_push_app_wake_for_delivery_title">Εκκίνηση εφαρμογής με μήνυμα push</string>
+    <string name="pref_push_app_wake_for_delivery_summary">Ξεκινήστε την εφαρμογή στο παρασκήνιο για να λαμβάνετε τα εισερχόμενα μηνύματα push</string>
+    <string name="pref_gcm_enable_mcs_summary">Το cloud μessaging είναι ένας πάροχος ειδοποιήσεων push που χρησιμοποιείται για τροποποιημένες εφαρμογές. Για να το χρησιμοποιήσετε, πρέπει να ενεργοποιήσετε την εγγραφή της συσκευής</string>
+    <string name="pref_gcm_confirm_new_apps_title">Επιβεβαίωση νέων εφαρμογών</string>
     <string name="pref_gcm_confirm_new_apps_summary">Απαίτηστε πριν από την εγγραφή μιας νέας εφαρμογής για να λάβει ειδοποιήσεις</string>
     <string name="pref_gcm_remove_registers">Αφαιρέστε όλες τις εγγραφές</string>
     <string name="pref_gcm_remove_registers_summary">Μόνο χρησιμοποιήστε αυτή την επιλογή αν αντιμετωπιστείτε προβλήματα με την εγγραφή μιας εφαρμογής ή την λήψη ειδοποιήσεων</string>
